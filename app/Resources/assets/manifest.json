@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "bower": ["jquery", "bootstrap"],
+      "main": true
+    },
+    "rem.js": {
+      "bower": ["REM-unit-polyfill"]
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8080/app_dev.php",
+    "revManifest": "var/rev-manifest.json"
+  },
+  "paths": {
+    "source": "app/Resources/assets/",
+    "dist": "web/assets/"
+  }
+}

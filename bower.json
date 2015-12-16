@@ -1,0 +1,22 @@
+{
+  "name": "mimopo-symfony-starter",
+  "version": "1.0.0",
+  "authors": [
+    "Miguel Montes Porras <info@mimopo.es>"
+  ],
+  "description": "symfony27",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "font-awesome": "~4.5.0",
+    "REM-unit-polyfill": "~1.3.4"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "scss/font-awesome.scss",
+        "fonts/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+services:
+    mimopo_gulp.twig_asset_version_extension:
+        class: Mimopo\GulpBundle\Twig\AssetVersionExtension
+        arguments: ["%kernel.root_dir%"]
+        tags:
+            - { name: twig.extension }
