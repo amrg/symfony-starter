@@ -14,7 +14,7 @@ vagrantfile:
                     host: '8022'
                     guest: '22'
                 vflnp_5grg0au45k6g:
-                    host: '8080'
+                    host: '8000'
                     guest: '80'
         post_up_message: ''
         provider:
